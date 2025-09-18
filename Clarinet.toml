@@ -5,9 +5,17 @@ authors = []
 telemetry = true
 cache_dir = "./.cache"
 
-# [contracts.counter]
-# path = "contracts/counter.clar"
-# epoch = "latest"
+[contracts.solar-irradiance-oracle]
+path = "contracts/solar-irradiance-oracle.clar"
+epoch = "2.1"
+
+[contracts.wind-speed-monitoring]
+path = "contracts/wind-speed-monitoring.clar"
+epoch = "2.1"
+
+[contracts.energy-output-verification]
+path = "contracts/energy-output-verification.clar"
+epoch = "2.1"
 
 [repl.analysis]
 passes = ["check_checker"]
